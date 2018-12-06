@@ -20,7 +20,7 @@ $('.js-shopping-list-form').submit( function(event) {
 
 
 });*/
-function main() {
+function getTextFromForm() {
   $('.js-shopping-list-form').submit(function(event) {
     event.preventDefault();
     const outputVar = $('.js-shopping-list-form');
@@ -28,4 +28,19 @@ function main() {
     console.log(output);
   })
 };
+function isCheckButtonClicked() {
+
+}
+
+function changeClassOfList() {
+  //change list to strikethrough
+}
+
+function deletebutton() {
+
+}
+
+function main() {
+
+}
 $(main);
